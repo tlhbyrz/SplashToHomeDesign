@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity"
+    android:background="#FAFAFA">
+
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:background="@drawable/ills"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Something You Need"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:textColor="#C1C1C1" />
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:background="@drawable/linearbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="35dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/pic1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/l1t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facelift"
+                android:textColor="#0D1D55"
+                android:textSize="24sp"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/l1t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IDR 200.000"
+                android:textColor="#B9B9B9"
+                android:textSize="19sp"
+                android:layout_marginTop="3dp"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btnpls"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:background="@drawable/linearbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="35dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/pic2"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/l2t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Skinlight"
+                android:textColor="#0D1D55"
+                android:textSize="24sp"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/l2t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IDR 18.091"
+                android:textColor="#B9B9B9"
+                android:textSize="19sp"
+                android:layout_marginTop="3dp"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btnpls"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="25dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:background="@drawable/linearbg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="35dp">
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/pic1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/l3t1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Foreheads"
+                android:textColor="#0D1D55"
+                android:textSize="24sp"
+                android:layout_marginTop="12dp"/>
+
+            <TextView
+                android:id="@+id/l3t2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IDR 98.091"
+                android:textColor="#B9B9B9"
+                android:textSize="19sp"
+                android:layout_marginTop="3dp"/>
+
+        </LinearLayout>
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/btnpls"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="25dp"/>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/bgbtnbuy"
+        android:text="Buy All Items"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:paddingBottom="25dp"/>
+
+</LinearLayout>
